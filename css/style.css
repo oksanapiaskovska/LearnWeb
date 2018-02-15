@@ -1,0 +1,179 @@
+body {
+	font: 13px/1.5 Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Global */
+.container{
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+/* Header */
+header{
+	background: url(../img/images.jpg) no-repeat 0px -200px;
+	background-size: auto;
+	min-height: 400px;
+	padding-top: 40px;
+}
+
+header #branding {
+	float: left;
+}
+
+ header a {
+ 	text-decoration: none;
+ 	color: #ffffff;
+ }
+
+ header nav {
+ 	float: right;
+ }
+
+ header li {
+ 	float: left;
+ 	display: inline;
+ 	padding: 0 0 0 20px;
+ }
+
+ header #branding h1 {
+ 	font-size: 14px;
+ 	color: #ffffff;
+ 	text-transform: uppercase
+ }
+
+header .showcase {
+	margin-top: 110px;
+	text-align: center;
+	color: #ffffff;
+}
+
+header .showcase .question {
+	font-size: 18px;
+}
+
+header .showcase .answer {
+	margin: 0 0 20px 0;
+	font-size: 56px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+header .showcase button {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 8px 35px;
+	border: 1px solid #ffffff;
+	background-color: inherit;
+	color: #ffffff;
+}
+
+/* First Section */
+
+#firstOption, #secondOption {
+	min-height: 350px;
+}
+
+#firstOption .optionText {
+	float: left;
+	width: 70%;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding-right: 70px;
+}
+
+.optionText p{
+	color: #777777;
+	font-size: 15px;
+}
+
+.optionText h1{
+	color: #111111;
+	font-size: 42px;
+	font-weight: lighter;
+}
+
+.highlight {
+	font-weight: bold;
+}
+
+#firstOption .optionImage {
+	float: right;
+	width: 25%;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+#firstOption .optionImage i {
+	transform: rotate(90deg);
+	font-size: 325px;
+	color: #e0e0e0;
+}
+
+
+
+/* Secont Section */
+#secondOption {
+	background-color: #fafafa;
+}
+
+#secondOption .optionText {
+	float: right;
+	width: 70%;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding-left: 70px;
+}
+
+#secondOption .optionImage {
+	float: left;
+	width: 25%;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+#secondOption .optionImage i {
+	font-size: 325px;
+	color: #e0e0e0;
+}
+
+
+/* Options List */
+#optionsList .summary i {
+	border-radius: 50%;
+	background-color: black;
+	color: #ffffff;
+	font-size: 50px;
+	padding: 10px;
+}
+
+#optionsList .firstColumn {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+#optionslist .secondColumn {
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+#optionsList .summaryImg {
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+}
+
+#optionsList .summaryText {
+	float: right;
+	width: 80%;
+	box-sizing: border-box;
+}
