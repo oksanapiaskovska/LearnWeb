@@ -89,12 +89,12 @@ header .showcase button {
 	padding-right: 70px;
 }
 
-.optionText p{
+.optionText p {
 	color: #777777;
 	font-size: 15px;
 }
 
-.optionText h1{
+.optionText h1 {
 	color: #111111;
 	font-size: 42px;
 	font-weight: lighter;
@@ -146,34 +146,55 @@ header .showcase button {
 
 
 /* Options List */
+#optionsList {
+	min-height: 580px;
+}
+
 #optionsList .summary i {
 	border-radius: 50%;
 	background-color: black;
 	color: #ffffff;
-	font-size: 50px;
-	padding: 10px;
+	font-size: 35px;
+	padding: 15px;
 }
 
 #optionsList .firstColumn {
 	float: left;
-	width: 50%;
+	width: 45%;
 	box-sizing: border-box;
+	margin: 90px 0 90px 0;
+
 }
 
-#optionslist .secondColumn {
+#optionsList .secondColumn {
 	float: right;
-	width: 50%;
+	width: 45%;
 	box-sizing: border-box;
+	margin: 90px 0 90px 0;
+}
+
+#optionsList .summary {
+	min-height: 140px;
 }
 
 #optionsList .summaryImg {
 	float: left;
 	width: 20%;
 	box-sizing: border-box;
+	margin-top: 15px;
 }
 
 #optionsList .summaryText {
 	float: right;
 	width: 80%;
 	box-sizing: border-box;
+}
+
+#optionsList p {
+	color: #777777;
+	font-size: 15px;
+}
+
+#optionsList h3 {
+	color: #111111;
 }
