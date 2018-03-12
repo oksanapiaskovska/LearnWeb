@@ -24,7 +24,7 @@ header{
 	padding-top: 40px;
 }
 
-header #branding {
+header .branding {
 	float: left;
 }
 
@@ -43,7 +43,7 @@ header #branding {
  	padding: 0 0 0 20px;
  }
 
- header #branding h1 {
+ header .branding h1 {
  	font-size: 14px;
  	color: #ffffff;
  	text-transform: uppercase
@@ -75,26 +75,23 @@ header .showcase button {
 	color: #ffffff;
 }
 
-/* First Section */
+/* Services */
 
-#firstOption, #secondOption {
+.service-brand {
+	background-color: #fafafa;
+}
+
+.service-dev, .service-brand {
 	min-height: 350px;
+	padding: 50px 0 50px 0;
 }
 
-#firstOption .optionText {
-	float: left;
-	width: 70%;
-	margin-top: 20px;
-	box-sizing: border-box;
-	padding-right: 70px;
-}
-
-.optionText p {
+.service-dev p, .service-brand p {
 	color: #777777;
 	font-size: 15px;
 }
 
-.optionText h1 {
+.service-dev h1, .service-brand h1 {
 	color: #111111;
 	font-size: 42px;
 	font-weight: lighter;
@@ -104,97 +101,157 @@ header .showcase button {
 	font-weight: bold;
 }
 
-#firstOption .optionImage {
-	float: right;
-	width: 25%;
-	margin-top: 20px;
-	box-sizing: border-box;
-}
-
-#firstOption .optionImage i {
-	transform: rotate(90deg);
-	font-size: 325px;
+.service-dev i, .service-brand i {
+	font-size: 260px;
 	color: #e0e0e0;
 }
-
-
-
-/* Secont Section */
-#secondOption {
-	background-color: #fafafa;
-}
-
-#secondOption .optionText {
-	float: right;
-	width: 70%;
-	margin-top: 20px;
-	box-sizing: border-box;
-	padding-left: 70px;
-}
-
-#secondOption .optionImage {
-	float: left;
-	width: 25%;
-	margin-top: 20px;
-	box-sizing: border-box;
-}
-
-#secondOption .optionImage i {
-	font-size: 325px;
-	color: #e0e0e0;
-}
-
 
 /* Options List */
-#optionsList {
-	min-height: 580px;
+.options-list {
+	margin: 50px 0 50px 0;
 }
 
-#optionsList .summary i {
+.options-list i {
 	border-radius: 50%;
 	background-color: black;
 	color: #ffffff;
-	font-size: 35px;
-	padding: 15px;
+	font-size: 30px;
+	padding: 10px;
 }
 
-#optionsList .firstColumn {
-	float: left;
-	width: 45%;
-	box-sizing: border-box;
-	margin: 90px 0 90px 0;
+.options-list .row {
+	margin-top: 20px;
 
 }
 
-#optionsList .secondColumn {
-	float: right;
-	width: 45%;
-	box-sizing: border-box;
-	margin: 90px 0 90px 0;
-}
-
-#optionsList .summary {
-	min-height: 140px;
-}
-
-#optionsList .summaryImg {
-	float: left;
-	width: 20%;
-	box-sizing: border-box;
-	margin-top: 15px;
-}
-
-#optionsList .summaryText {
-	float: right;
-	width: 80%;
-	box-sizing: border-box;
-}
-
-#optionsList p {
+.options-list p {
 	color: #777777;
 	font-size: 15px;
 }
 
-#optionsList h3 {
+.options-list h3 {
 	color: #111111;
+	font-weight: bold;
+	font-size: 17px;
 }
+
+/* AWESOME CLIENTS  */
+
+.clients {
+	padding: 50px 0 50px 0;
+	background-color: #fafafa;
+}
+
+.clients p {
+	color: #777777;
+	font-size: 15px;
+}
+
+.clients h1 {
+	color: #111111;
+	font-size: 42px;
+	font-weight: lighter;
+}
+
+.clients img {
+	border-radius: 50%;
+}
+
+.heading {
+	text-align: center;
+}
+
+.clients .row {
+	margin: 30px 0 0 0;
+}
+
+.clients .quatation {   
+    background-color: #ffffff;
+    padding: 30px 60px;
+ 	border: 1px solid #777777;
+ 	position: absolute;
+}
+.clients .quatation::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -20px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent #777777 transparent transparent;
+}
+
+/* AMAZING TEAM */
+
+.team {
+	background-color: #111111;
+	padding: 90px 0;
+}
+
+.team h1 {
+	color: #ffffff;
+	font-size: 42px;
+	font-weight: lighter;
+}
+
+.team p {
+	color: #ffffff;
+	font-size: 15px;
+	text-align: center;
+}
+
+.team .heading p {
+	color: #777777;
+}
+
+.team .bolder {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.team img {
+	border-radius: 50%;
+	border: 8px solid #ffffff;
+	margin: 50px 0 20px 0;
+}
+
+.team .col-md-4 {
+	text-align: center;
+}
+
+.team i {
+	border: 3px solid #ffffff;
+	border-radius: 50%;
+	background-color: #111111;
+	color: #ffffff;
+	font-size: 25px;
+	padding: 9px;
+	width: 50px;
+	margin: 10px 0 50px 0;
+}
+
+/*  TULS */
+
+.tuls {
+	background-color: #ffffff;
+}
+
+.tuls img {
+	opacity: 0.3;
+	margin: 30px 0;
+}
+
+
+/*   FORMS   */
+
+.forms {
+	background-color: #7690c5;
+	color: #ffffff;
+	padding: 90px 0;
+}
+
+
+
+
+
